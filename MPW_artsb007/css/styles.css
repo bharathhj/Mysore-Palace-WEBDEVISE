@@ -1,0 +1,915 @@
+ body {
+	font-size: 16px;
+	color: #000000;
+	background-color: #000000;
+	font-family: 'Slabo 27px', serif;
+	margin: 0;
+}
+
+/** Header **/
+#header-nav {
+	background-color: #FFFFFF;
+	border-radius: 0;
+	border: 0;
+}
+
+#logo-img {
+	background: url('../images/Logo.png') no-repeat;
+	width: 112px;
+	height: 174px;
+	margin: 10px 15px 10px 0;
+}
+
+.navbar-brand {
+	padding: 25px;
+}
+.navbar-brand h1{/* Brand Namma Mysore */
+	font-family: 'Montserrat', sans-serif;
+	color:   #000000;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-shadow: .1px .1px .1px #222;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: .75;
+}
+
+.navbar-brand {
+	float: left;
+}
+
+.pull-left {
+	float:left;
+}
+.navbar-brand a:hover, .navbar-brand a:focus{
+	text-decoration:none;
+}
+.navbar-brand p{ /* Karnataka */
+	color:  #999999;
+	text-transform: uppercase;
+	font-size: .7em;
+	margin-top: 15px;
+}
+.navbar-brand p span{/* small Logo */
+	vertical-align: middle;
+}
+
+#nav-list {
+	margin-top: 10px;
+}
+#nav-list a{
+	color: #000000;
+	text-align: center;
+}
+
+#nav-list a span{
+	font-size: 1.8em;
+}
+
+#history{/* history */
+  margin-top: 30px;
+  padding-top: 32px;
+  padding-bottom: 10px;
+  font-size: .6em;  
+}
+
+#history a:hover{
+  border-radius: 8px;
+  text-decoration: none;
+  color: #000000;
+  background-color:  #bfbfbf;
+  padding-right: 1050px;
+  padding-top: 17px;
+  padding-bottom: 17px;
+}
+
+#stories{/* stories */
+  padding-top: 32px;
+  padding-bottom: 10px;
+  font-size: .6em;  
+}
+
+#stories a:hover{
+  border-radius: 8px;
+  text-decoration: none;
+  color: #000000;
+  background-color:  #bfbfbf;
+  padding-right: 1050px;
+  padding-top: 17px;
+  padding-bottom: 17px;
+}
+
+#about{/* about */
+  padding-top: 32px;
+  padding-bottom: 10px;
+  font-size: .6em;  
+}
+#about a:hover{
+  border-radius: 8px;
+  text-decoration: none;
+  color: #000000;
+  background-color:  #bfbfbf;
+  padding-right: 1050px;
+  padding-top: 17px;
+  padding-bottom: 17px;
+}
+#pincode{/* Pincode of Mysore */
+	padding-top: 32px;
+	padding-bottom: 10px;
+	font-size: .6em;  
+}
+#pincode a:hover{
+  border-radius: 8px;
+	text-decoration: none;
+	color: #000000;
+	background-color:  #bfbfbf;
+	padding-right: 1050px;
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+#pincode div{/* visit now */
+	color: 	 #8c8c8c;
+	padding-right: 25px;
+}
+
+padding-bottom: 20px;
+}
+.contains {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.navbar-toggle{
+  position: relative;
+  float: right;
+  padding: 9px 10px 9px 10px;
+  margin-top: .8px;
+  margin-right: .15px;
+  margin-bottom: .8px;
+  background-color: transparent;
+  background-image: none;
+  border-color: #ffffff;
+  border-bottom: 0;
+  border-right: 0;
+}
+.navbar-toggle:focus{
+  outline: 0;
+}
+.navbar-header .bar1, .bar2, .bar3 {
+  width: 35px;
+  border-style: none;
+  border-radius: 8px;
+  height: 5px;
+  background-color: #333;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+/* Rotate first bar */
+.change .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
+  transform: rotate(-45deg) translate(-9px, 6px) ;
+}
+
+/* Fade out the second bar */
+.change .bar2 {
+  opacity: 0;
+}
+
+/* Rotate last bar */
+.change .bar3 {
+  -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
+  transform: rotate(45deg) translate(-8px, -8px) ;
+}
+
+
+
+/* END HEADER */
+
+
+/* Footer */
+.pannel-footer{
+	margin-top: 350px;
+	padding-top: 35px;
+	padding-bottom: 30px;
+	background-color:  #ffffff;
+	border-top: 0;
+}
+
+.pannel-footer div.row {
+	margin-bottom: 35px;
+}
+
+ #address > span {
+	font-size: 1.3em;
+}
+
+#address p {
+	font-size: 1em;
+	line-height: 1.8;
+}
+#testimonials {
+	font-style: italic;
+}
+#testimonials p:nth-child(2) {
+	margin-top: 25px;
+}
+
+#p{
+	color: #808080;
+}
+
+
+
+
+
+/* END FOOTER */
+ 
+.jumbotron{
+	background: url('../images/mysuru palace.jpg') no-repeat;
+	height: 675px;
+	box-shadow: 0 0 50px #000000;
+	border: 2px solid #000000;
+}
+
+.jumbotron_1{
+  background: url('../images/history_1.jpg') no-repeat;
+  height: 675px;
+  box-shadow: 0 0 50px #000000;
+  border: 2px solid #000000;
+  margin-top: 100px;
+}
+.paragraph_1{
+  margin-top: 70px;
+  color: #ffffff;
+}
+
+.paragraph_1 p{
+  text-align: left;
+  font-size: 1em;
+  margin-bottom: 50px;
+}
+
+.jumbotron_2{
+  background: url('../images/Mysore-Pak_2.jpg') no-repeat;
+  height: 675px;
+  box-shadow: 0 0 50px #000000;
+  border: 2px solid #000000;
+  margin-top: 100px;
+}
+
+.paragraph_2{
+  margin-top: 70px;
+  color: #ffffff;
+  margin-bottom: 50px;
+}
+
+.paragraph_2 p{
+  text-align: left;
+  font-size: 1em;
+}
+
+.jumbotron_3{
+  background: url('../images/Mysore Palace_3.jpg') no-repeat;
+  background-size: 100% 100%;
+  height: 675px;
+  box-shadow: 0 0 50px #000000;
+  border: 2px solid #000000;
+  margin-top: 100px;
+}
+
+.paragraph_3{
+  margin-top: 70px;
+  color: #ffffff;
+  margin-bottom: 50px;
+}
+
+.paragraph_3 p{
+  text-align: left;
+  font-size: 1em;
+}
+
+.jumbotron_4{
+  background: url('../images/Mysore Golden Ambari_4.jpg') no-repeat;
+  background-size: 100% 100%;
+  height: 675px;
+  box-shadow: 0 0 50px #000000;
+  border: 2px solid #000000;
+  margin-top: 100px;
+}
+.jumbotron_5{
+  background: url('../images/Mysore Palace_4.jpg') no-repeat;
+  background-size: 100% 100%;
+  height: 675px;
+  box-shadow: 0 0 50px #000000;
+  border: 2px solid #000000;
+  margin-top: 100px;
+}
+
+#history-tile, #stories-tile, #map-tile{
+ 	height: 250px;
+ 	width: 100%;
+ 	margin-bottom: 15px;
+ 	position: relative;
+ 	border: 2px solid #000000;
+ 	overflow: hidden;
+ }
+
+ #history-tile:hover, #stories-tile:hover, #map-tile:hover{
+ 	box-shadow: 0 1px 5px 1px #cccccc;
+ }
+
+ #history-tile {
+ 	background: url('../images/history.jpg') no-repeat;
+ 	background-position: center;
+ 	background-size: 100% 100%;
+ }
+
+ #stories-tile {
+ 	background: url('../images/stories.jpg') no-repeat;
+ 	background-position: center;
+ 	background-size: 100% 100%;
+ }
+
+ #history-tile span, #stories-tile span, #map-tile span {
+ 	position: absolute;
+ 	bottom: 0;
+ 	right: 0;
+ 	width: 100%;
+ 	text-align: center;
+ 	font-size: 1.6em;
+ 	text-transform: uppercase;
+ 	background-color: #000;
+ 	color: #fff;
+ 	opacity: .8;
+ }
+
+.row{
+	width: 100%;
+}
+
+.item{
+	position: relative;
+}
+
+/* Simple Responsive Framework. */
+/*------ Desktop ------*/
+@media (min-width: 992px){
+  .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+    float: left;  
+  }
+  .col-lg-1 {
+    width: 8.33%;
+  }
+  .col-lg-2 {
+    width: 16.66%;
+  }
+  .col-lg-3 {
+    width: 25%;
+  }
+  .col-lg-4 {
+    width: 33.33%;
+  }
+  .col-lg-5 {
+    width: 41.66%;
+  }
+  .col-lg-6 {
+    width: 50%;
+  }
+  .col-lg-7 {
+    width: 58.33%;
+  }
+  .col-lg-8 {
+    width: 66.66%;
+  }
+  .col-lg-9 {
+    width: 74.99%;
+  }
+  .col-lg-10 {
+    width: 83.33%;
+  }
+  .col-lg-11 {
+    width: 91.66%;
+  }
+  .col-lg-12 {
+    width: 100%;
+  }
+
+  .jumbotron {
+  	background: url('../images/mysuru palace.jpg') no-repeat;
+  	height: 675px;
+  	background-position: center;
+ 	  background-size: 100% 100%;
+  	margin-top: 30px;
+  	padding: 0;
+  }
+
+  .jumbotron_1{
+  background: url('../images/history_1.jpg') no-repeat;
+  height: 675px;
+  box-shadow: 0 0 50px #000000;
+  border: 2px solid #000000;
+  background-position: center;
+  background-size: 100% 100%;
+  margin-top: 30px;
+  padding: 0;
+}
+
+.jumbotron_2{
+  background: url('../images/Mysore-Pak_2.jpg') no-repeat;
+  height: 675px;
+  box-shadow: 0 0 50px #000000;
+  border: 2px solid #000000;
+  background-position: center;
+  background-size: 100% 100%;
+  margin-top: 30px;
+  padding: 0;
+}
+
+.jumbotron_3{
+  background: url('../images/Mysore Palace_3.jpg') no-repeat;
+  background-size: 100% 100%;
+  height: 675px;
+  box-shadow: 0 0 50px #000000;
+  border: 2px solid #000000;
+  background-position: center;
+  background-size: 100% 100%;
+  margin-top: 30px;
+  padding: 0;
+}
+
+.jumbotron_4{
+  background: url('../images/Mysore Golden Ambari_4.jpg') no-repeat;
+  background-size: 100% 100%;
+  height: 675px;
+  box-shadow: 0 0 50px #000000;
+  border: 2px solid #000000;
+  background-position: center;
+  background-size: 100% 100%;
+  margin-top: 30px;
+  padding: 0;
+}
+
+.jumbotron_5{
+  background: url('../images/Mysore Palace_4.jpg') no-repeat;
+  background-size: 100% 100%;
+  height: 675px;
+  box-shadow: 0 0 50px #000000;
+  border: 2px solid #000000;
+  background-position: center;
+  background-size: 100% 100%;
+  margin-top: 30px;
+  padding: 0;
+}
+
+  .navbar-toggle{
+  position: relative;
+  float: right;
+  padding: 9px 10px 9px 10px;
+  margin-top: .8px;
+  margin-right: .15px;
+  margin-bottom: .8px;
+  background-color: transparent;
+  background-image: none;
+  border-color: #ffffff;
+  border-bottom: 0;
+  border-right: 0;
+}
+.navbar-toggle:focus{
+  outline: 0;
+}
+.navbar-header .bar1, .bar2, .bar3 {
+  width: 35px;
+  border-style: none;
+  border-radius: 8px;
+  height: 5px;
+  background-color: #333;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a{
+  color: #000000;
+  text-align: center;
+}
+
+#nav-list a span{
+  font-size: 1.8em;
+}
+#history{/* history */
+  margin-top: 30px;
+  padding-top: 32px;
+  padding-bottom: 10px;
+  font-size: .6em;  
+}
+#history a:hover{
+  border-radius: 8px;
+  text-decoration: none;
+  color: #000000;
+  background-color:  #bfbfbf;
+  padding-right: 1050px;
+  padding-top: 17px;
+  padding-bottom: 17px;
+}
+#stories{/* stories */
+  border-radius: 8px;
+  padding-top: 32px;
+  padding-bottom: 10px;
+  font-size: .6em;  
+}
+#stories a:hover{
+  border-radius: 8px;
+  text-decoration: none;
+  color: #000000;
+  background-color:  #bfbfbf;
+  padding-right: 1050px;
+  padding-top: 17px;
+  padding-bottom: 17px;
+}
+
+#about{/* about */
+  padding-top: 32px;
+  padding-bottom: 10px;
+  font-size: .6em;  
+}
+#about a:hover{
+  border-radius: 8px;
+  text-decoration: none;
+  color: #000000;
+  background-color:  #bfbfbf;
+  padding-right: 1050px;
+  padding-top: 17px;
+  padding-bottom: 17px;
+}
+
+#pincode{
+  margin-top: 5px;
+}
+#pincode{/* Pincode of Mysore */
+  padding-top: 32px;
+  padding-bottom: 10px;
+  font-size: .6em;  
+}
+#pincode a:hover{
+  border-radius: 8px;
+  text-decoration: none;
+  color: #000000;
+  background-color:  #bfbfbf;
+  padding-right: 1050px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+#pincode div{/* visit now */
+  color:   #8c8c8c;
+  padding-right: 25px;
+}
+
+}
+
+
+/*------ Tablet ------*/
+@media (min-width: 768px) and (max-width: 991px){
+  .col-lg-4 {
+    width: 50%;
+    float: left;
+  }
+  .col-lg-tablet{
+   width: 100%;
+   float: left;
+ }
+  .jumbotron {
+  	background: url('../images/mysuru palace.jpg') no-repeat;
+  	height: 675px;
+  	background-position: center;
+ 	  background-size: 100% 100%;
+  	margin-top: 30px;
+  	padding: 0;
+  }
+
+  .jumbotron_1{
+  background: url('../images/history_1.jpg') no-repeat;
+  height: 675px;
+  box-shadow: 0 0 50px #000000;
+  border: 2px solid #000000;
+  background-position: center;
+  background-size: 100% 100%;
+  margin-top: 30px;
+  padding: 0;
+}
+
+.jumbotron_2{
+  background: url('../images/Mysore-Pak_2.jpg') no-repeat;
+  height: 675px;
+  box-shadow: 0 0 50px #000000;
+  border: 2px solid #000000;
+  background-position: center;
+  background-size: 100% 100%;
+  margin-top: 30px;
+  padding: 0;
+}
+
+.jumbotron_3{
+  background: url('../images/Mysore Palace_3.jpg') no-repeat;
+  background-size: 100% 100%;
+  height: 675px;
+  box-shadow: 0 0 50px #000000;
+  border: 2px solid #000000;
+  background-position: center;
+  background-size: 100% 100%;
+  margin-top: 30px;
+  padding: 0;
+}
+
+.jumbotron_4{
+  background: url('../images/Mysore Golden Ambari_4.jpg') no-repeat;
+  background-size: 100% 100%;
+  height: 675px;
+  box-shadow: 0 0 50px #000000;
+  border: 2px solid #000000;
+  background-position: center;
+  background-size: 100% 100%;
+  margin-top: 30px;
+  padding: 0;
+}
+
+.jumbotron_5{
+  background: url('../images/Mysore Palace_4.jpg') no-repeat;
+  background-size: 100% 100%;
+  height: 675px;
+  box-shadow: 0 0 50px #000000;
+  border: 2px solid #000000;
+  background-position: center;
+  background-size: 100% 100%;
+  margin-top: 30px;
+  padding: 0;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+
+#nav-list a{
+  color: #000000;
+  text-align: center;
+}
+
+#nav-list a span{
+  font-size: 1.8em;
+}
+#history{/* history */
+  margin-top: 30px;
+  padding-top: 32px;
+  padding-bottom: 10px;
+  font-size: .6em;  
+}
+#history a:hover{
+  border-radius: 8px;
+  text-decoration: none;
+  color: #000000;
+  background-color:  #bfbfbf;
+  padding-right: 700px;
+  padding-top: 17px;
+  padding-bottom: 17px;
+}
+#stories{/* stories */
+  border-radius: 8px;
+  padding-top: 32px;
+  padding-bottom: 10px;
+  font-size: .6em;  
+}
+#stories a:hover{
+  border-radius: 8px;
+  text-decoration: none;
+  color: #000000;
+  background-color:  #bfbfbf;
+  padding-right: 700px;
+  padding-top: 17px;
+  padding-bottom: 17px;
+}
+
+#about{/* about */
+  padding-top: 32px;
+  padding-bottom: 10px;
+  font-size: .6em;  
+}
+#about a:hover{
+  border-radius: 8px;
+  text-decoration: none;
+  color: #000000;
+  background-color:  #bfbfbf;
+  padding-right: 700px;
+  padding-top: 17px;
+  padding-bottom: 17px;
+}
+
+#pincode{
+  margin-top: 5px;
+}
+#pincode{/* Pincode of Mysore */
+  padding-top: 32px;
+  padding-bottom: 10px;
+  font-size: .6em;  
+}
+#pincode a:hover{
+  border-radius: 8px;
+  text-decoration: none;
+  color: #000000;
+  background-color:  #bfbfbf;
+  padding-right: 700px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+#pincode div{/* visit now */
+  color:   #8c8c8c;
+  padding-right: 25px;
+}
+
+}
+
+
+/*------ Mobile ------*/
+@media (max-width: 767px){
+  .col-lg-4{
+    width: 100%;
+    float: left;
+  }
+  .jumbotron {
+  	background: url('../images/mysuru palace.jpg') no-repeat;
+  	height: 300px;
+  	background-position: center;
+ 	  background-size: 100% 100%;
+  	margin-top: 30px;
+  	padding: 0;
+  }
+
+    .jumbotron_1{
+  background: url('../images/history_1.jpg') no-repeat;
+  height: 300px;
+  box-shadow: 0 0 50px #000000;
+  border: 2px solid #000000;
+  background-position: center;
+  background-size: 100% 100%;
+  margin-top: 30px;
+  padding: 0;
+}
+
+.jumbotron_2{
+  background: url('../images/Mysore-Pak_2.jpg') no-repeat;
+  height: 300px;
+  box-shadow: 0 0 50px #000000;
+  border: 2px solid #000000;
+  background-position: center;
+  background-size: 100% 100%;
+  margin-top: 30px;
+  padding: 0;
+}
+
+.jumbotron_3{
+  background: url('../images/Mysore Palace_3.jpg') no-repeat;
+  background-size: 100% 100%;
+  height: 300px;
+  box-shadow: 0 0 50px #000000;
+  border: 2px solid #000000;
+  background-position: center;
+  background-size: 100% 100%;
+  margin-top: 30px;
+  padding: 0;
+}
+
+.jumbotron_4{
+  background: url('../images/Mysore Golden Ambari_4.jpg') no-repeat;
+  background-size: 100% 100%;
+  height: 300px;
+  box-shadow: 0 0 50px #000000;
+  border: 2px solid #000000;
+  background-position: center;
+  background-size: 100% 100%;
+  margin-top: 30px;
+  padding: 0;
+}
+
+.jumbotron_5{
+  background: url('../images/Mysore Palace_4.jpg') no-repeat;
+  background-size: 100% 100%;
+  height: 300px;
+  box-shadow: 0 0 50px #000000;
+  border: 2px solid #000000;
+  background-position: center;
+  background-size: 100% 100%;
+  margin-top: 30px;
+  padding: 0;
+}
+
+  #history-tile, #stories-tile, #map-tile{
+  	width: 360px;
+  	margin: 0 auto 10px;
+  }
+
+  .pannel-footer {
+  	margin-top: 850px;
+  	
+  }
+  .pannel-footer section{
+  	margin-bottom: 30px;
+  	text-align: center;
+  }
+
+  .pannel-footer section:nth-child(3) {
+  	margin-bottom: 0;
+  }
+
+  .pannel-footer section hr{
+  	width:50%;
+  }
+
+#nav-list {
+  margin-top: 10px;
+}
+
+#nav-list a{
+  color: #000000;
+  text-align: center;
+}
+
+#nav-list a span{
+  font-size: 1.8em;
+}
+#history{/* history */
+  margin-top: 30px;
+  padding-top: 32px;
+  padding-bottom: 10px;
+  font-size: .6em;  
+}
+#history a:hover{
+  border-radius: 8px;
+  text-decoration: none;
+  color: #000000;
+  background-color:  #bfbfbf;
+  padding-right: 300px;
+  padding-top: 17px;
+  padding-bottom: 17px;
+}
+#stories{/* stories */
+  border-radius: 8px;
+  padding-top: 32px;
+  padding-bottom: 10px;
+  font-size: .6em;  
+}
+#stories a:hover{
+  border-radius: 8px;
+  text-decoration: none;
+  color: #000000;
+  background-color:  #bfbfbf;
+  padding-right: 300px;
+  padding-top: 17px;
+  padding-bottom: 17px;
+}
+
+#about{/* about */
+  padding-top: 32px;
+  padding-bottom: 10px;
+  font-size: .6em;  
+}
+#about a:hover{
+  border-radius: 8px;
+  text-decoration: none;
+  color: #000000;
+  background-color:  #bfbfbf;
+  padding-right: 300px;
+  padding-top: 17px;
+  padding-bottom: 17px;
+}
+
+#pincode{
+  margin-top: 5px;
+}
+#pincode{/* Pincode of Mysore */
+  padding-top: 32px;
+  padding-bottom: 10px;
+  font-size: .6em;  
+}
+#pincode a:hover{
+  border-radius: 8px;
+  text-decoration: none;
+  color: #000000;
+  background-color:  #bfbfbf;
+  padding-right: 300px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+#pincode div{/* visit now */
+  color:   #8c8c8c;
+  padding-right: 25px;
+}
+
+}
+
+
+
+
+
+
+
